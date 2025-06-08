@@ -1,0 +1,572 @@
+2025-06-08 18:22:40.803 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:30038)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:39985)
+	at new v (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:878107)
+	at ge (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1684812)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688176
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687570
+	at Array.reduce (<anonymous>)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687542
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687824
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715635
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715656
+	at e._get (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714669)
+	at e._getButThrowIfAsync (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714729)
+	at e.get (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1710438)
+	at e.dynamicValue (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1700171)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1686348
+	at Ee (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1686604)
+	at Se (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688320)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685899
+	at Array.map (<anonymous>)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685870
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687570
+	at Array.reduce (<anonymous>)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687542
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687824
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715635
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715656
+	at e._get (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714669)
+	at e._getButThrowIfAsync (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714729)
+	at e.get (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1710438)
+	at a.get (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:536740)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:451577
+	at async t.activateComponents (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:449857)
+	at async /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642626
+	at async e (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642158)
+	at async Nb.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:13382)
+	at async Nb.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:13345)
+	at async Nb.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:12801)]
+2025-06-08 18:22:40.855 [info] > ~/Files/venv/bin/python3.13 -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-06-08 18:22:40.888 [info] Only Pylance is supported in untrusted workspaces, setting language server to None.
+2025-06-08 18:22:40.888 [info] Starting Jedi language server for default.
+2025-06-08 18:22:45.947 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:30038)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:39985)
+	at new v (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:878107)
+	at ge (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1684812)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688176
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687570
+	at Array.reduce (<anonymous>)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687542
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687824
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715635
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715656
+	at e._get (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714669)
+	at e._getButThrowIfAsync (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714729)
+	at e.get (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1710438)
+	at e.dynamicValue (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1700171)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1686348
+	at Ee (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1686604)
+	at Se (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688320)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685899
+	at Array.map (<anonymous>)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685870
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687570
+	at Array.reduce (<anonymous>)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687542
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687824
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715635
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715656
+	at e._get (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714669)
+	at e._getButThrowIfAsync (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714729)
+	at e.get (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1710438)
+	at a.get (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:536740)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:451577
+	at async t.activateComponents (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:449857)
+	at async /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642626
+	at async e (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642158)
+	at async /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642135]
+2025-06-08 18:22:46.052 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 102ms, has a falsy return value, Arg 1: undefined, Arg 2: {"started":1749396165906}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:30038)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:33198)
+  	at C.activate (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+  	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+]
+2025-06-08 18:22:46.052 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:30038)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:33198)
+	at C.activate (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+2025-06-08 18:22:46.052 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:30038)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:33198)
+	at C.activate (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+2025-06-08 18:22:46.077 [info] > ~/Files/venv/bin/python3.13 -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-06-08 18:22:46.101 [info] Python interpreter path: ~/Files/venv/bin/python3.13
+2025-06-08 18:22:46.530 [info] Starting Jedi language server for default.
+2025-06-08 18:23:19.975 [info] CreateEnv Trigger - Workspace not found for /home/andrew/Files/walls_maker.py
+2025-06-08 18:23:20.106 [info] Send text to terminal: source /home/andrew/Files/venv/bin/activate
+2025-06-08 18:23:21.110 [info] Send text to terminal: /home/andrew/Files/venv/bin/python3.13 /home/andrew/Files/walls_maker.py
+2025-06-08 18:24:05.581 [info] Send text to terminal: source /home/andrew/Files/venv/bin/activate
+2025-06-08 18:24:06.084 [info] Send text to terminal: /home/andrew/Files/venv/bin/python3.13 /home/andrew/Files/walls_maker.py
+2025-06-08 18:25:50.619 [warning] Dir "/home/andrew/Files/.pixi/envs" is not watchable (directory does not exist)
+2025-06-08 18:25:50.619 [error] Unable to check if shell integration is active [Error: Extension 'ms-python.python' CANNOT use API proposal: terminalDataWriteEvent.
+Its package.json#enabledApiProposals-property declares:  but NOT terminalDataWriteEvent.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:30038)
+	at a.onDidWriteTerminalData (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:39985)
+	at new v (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:878107)
+	at ge (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1684812)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688176
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687570
+	at Array.reduce (<anonymous>)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687542
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687824
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715635
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715656
+	at e._get (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714669)
+	at e._getButThrowIfAsync (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714729)
+	at e.get (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1710438)
+	at e.dynamicValue (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1700171)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1686348
+	at Ee (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1686604)
+	at Se (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688320)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685899
+	at Array.map (<anonymous>)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685870
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687570
+	at Array.reduce (<anonymous>)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687542
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1687824
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688204
+	at Se (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688271)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688751
+	at we (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688692)
+	at Pe (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1688726)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1685965
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715635
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1715656
+	at e._get (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714669)
+	at e._getButThrowIfAsync (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1714729)
+	at e.get (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:1710438)
+	at a.get (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:536740)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:451577
+	at async t.activateComponents (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:449857)
+	at async /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642626
+	at async e (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2642158)
+	at async Nb.n (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:13382)
+	at async Nb.m (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:13345)
+	at async Nb.l (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:12801)]
+2025-06-08 18:25:50.619 [info] Starting Environment refresh
+2025-06-08 18:25:50.619 [info] Starting Environment refresh
+2025-06-08 18:25:50.619 [info] > hatch env show --json
+2025-06-08 18:25:50.619 [info] cwd: .
+2025-06-08 18:25:50.619 [warning] Failed to check if /home/andrew/Files/venv/bin/python3.13 is an executable [Error: ENOENT: no such file or directory, lstat '/home/andrew/Files/venv/bin/python3.13'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/andrew/Files/venv/bin/python3.13'
+}
+2025-06-08 18:25:50.625 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:25:50.626 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:25:50.626 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:25:50.632 [info] > ./venv/bin/python3.13 -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-06-08 18:25:50.632 [info] Environments refresh paths discovered: 63 milliseconds
+2025-06-08 18:25:50.632 [info] Environments refresh paths discovered: 64 milliseconds
+2025-06-08 18:25:50.635 [error] [Error: Command failed: /home/andrew/Files/venv/bin/python3.13 -I /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+/bin/sh: line 1: /home/andrew/Files/venv/bin/python3.13: No such file or directory
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:536:35)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:524:28)
+	at Pipe.<anonymous> (node:net:343:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/andrew/Files/venv/bin/python3.13 -I /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py'
+}
+2025-06-08 18:25:52.643 [info] > ./venv/bin/python3.13 -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-06-08 18:25:52.647 [error] [Error: Command failed: /home/andrew/Files/venv/bin/python3.13 -I /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+/bin/sh: line 1: /home/andrew/Files/venv/bin/python3.13: No such file or directory
+
+	at genericNodeError (node:internal/errors:984:15)
+	at wrappedFn (node:internal/errors:538:14)
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:536:35)
+	at maybeClose (node:internal/child_process:1104:16)
+	at Socket.<anonymous> (node:internal/child_process:456:11)
+	at Socket.emit (node:events:524:28)
+	at Pipe.<anonymous> (node:net:343:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: '/home/andrew/Files/venv/bin/python3.13 -I /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py'
+}
+2025-06-08 18:25:52.647 [info] Environments refresh finished (event): 2078 milliseconds
+2025-06-08 18:25:52.648 [info] Environments refresh finished (event): 2079 milliseconds
+2025-06-08 18:25:52.651 [info] Environment refresh took 2082 milliseconds
+2025-06-08 18:25:52.652 [info] Environment refresh took 2084 milliseconds
+2025-06-08 18:25:52.652 [warning] Failed to check if /home/andrew/Files/venv/bin/python3.13 is an executable [Error: ENOENT: no such file or directory, lstat '/home/andrew/Files/venv/bin/python3.13'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/andrew/Files/venv/bin/python3.13'
+}
+2025-06-08 18:25:52.656 [info] > pyenv which python
+2025-06-08 18:25:52.656 [info] cwd: .
+2025-06-08 18:25:52.657 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:25:52.662 [error] [
+  'Failed to activate a workspace, Class name = v, completed in 2095ms, has a falsy return value, Arg 1: <Uri:/home/andrew/Files/walls_maker.py>, Arg 2: {"started":1749396350536}, Return Value: undefined',
+  [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+  Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+   The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+  	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:30038)
+  	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:33198)
+  	at C.activate (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+  	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+  	at Array.map (<anonymous>)
+  	at v.activateWorkspace (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+]
+2025-06-08 18:25:52.662 [error] Failure during activation. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:30038)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:33198)
+	at C.activate (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+2025-06-08 18:25:52.662 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-python.python' CANNOT use API proposal: testObserver.
+Its package.json#enabledApiProposals-property declares:  but NOT testObserver.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-python.python
+	at N (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:113:30038)
+	at get testResults (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:170:33198)
+	at C.activate (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:908659)
+	at /home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2457
+	at Array.map (<anonymous>)
+	at v.activateWorkspace (/home/andrew/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/out/client/extension.js:2:2447)]
+2025-06-08 18:25:52.663 [warning] Failed to check if /home/andrew/Files/venv/bin/python3.13 is an executable [Error: ENOENT: no such file or directory, lstat '/home/andrew/Files/venv/bin/python3.13'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/andrew/Files/venv/bin/python3.13'
+}
+2025-06-08 18:25:52.663 [warning] Failed to check if /home/andrew/Files/venv/bin/python3.13 is an executable [Error: ENOENT: no such file or directory, lstat '/home/andrew/Files/venv/bin/python3.13'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/andrew/Files/venv/bin/python3.13'
+}
+2025-06-08 18:25:52.663 [warning] Failed to check if /home/andrew/Files/venv/bin/python3.13 is an executable [Error: ENOENT: no such file or directory, lstat '/home/andrew/Files/venv/bin/python3.13'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/andrew/Files/venv/bin/python3.13'
+}
+2025-06-08 18:25:52.663 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:25:52.663 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:25:52.663 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:25:52.665 [error] Unable to start Jedi language server as a valid interpreter is not selected
+2025-06-08 18:25:56.513 [warning] Failed to check if /home/andrew/Files/venv/bin/python3.13 is an executable [Error: ENOENT: no such file or directory, lstat '/home/andrew/Files/venv/bin/python3.13'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/andrew/Files/venv/bin/python3.13'
+}
+2025-06-08 18:25:56.515 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:25:56.519 [warning] Failed to check if /home/andrew/Files/venv/bin/python3.13 is an executable [Error: ENOENT: no such file or directory, lstat '/home/andrew/Files/venv/bin/python3.13'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/andrew/Files/venv/bin/python3.13'
+}
+2025-06-08 18:25:56.521 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:25:59.230 [info] Starting Environment refresh
+2025-06-08 18:25:59.230 [info] Searching for interpreters in posix paths locator
+2025-06-08 18:25:59.231 [info] Searching for pyenv environments
+2025-06-08 18:25:59.231 [info] Searching for conda environments
+2025-06-08 18:25:59.231 [info] Searching for global virtual environments
+2025-06-08 18:25:59.231 [info] Searching for custom virtual environments
+2025-06-08 18:25:59.235 [info] > conda info --json
+2025-06-08 18:25:59.236 [info] pyenv is not installed
+2025-06-08 18:25:59.236 [info] Finished searching for pyenv environments: 6 milliseconds
+2025-06-08 18:25:59.236 [info] Finished searching for custom virtual envs: 5 milliseconds
+2025-06-08 18:25:59.236 [warning] Failed to check if /home/andrew/Files/venv/bin/python3.13 is an executable [Error: ENOENT: no such file or directory, lstat '/home/andrew/Files/venv/bin/python3.13'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/andrew/Files/venv/bin/python3.13'
+}
+2025-06-08 18:25:59.237 [info] Finished searching for global virtual envs: 7 milliseconds
+2025-06-08 18:25:59.239 [info] Found: /bin/python --> /bin/python3.13
+2025-06-08 18:25:59.239 [info] Found: /bin/python3 --> /bin/python3.13
+2025-06-08 18:25:59.239 [info] Found: /bin/python3.13 --> /bin/python3.13
+2025-06-08 18:25:59.239 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:25:59.239 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:25:59.241 [info] Active interpreter [/home/andrew/Files]:  /home/andrew/Files/venv/bin/python3.13
+2025-06-08 18:25:59.245 [warning] Failed to check if /home/andrew/Files/venv/bin/python3.13 is an executable [Error: ENOENT: no such file or directory, lstat '/home/andrew/Files/venv/bin/python3.13'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/andrew/Files/venv/bin/python3.13'
+}
+2025-06-08 18:25:59.245 [warning] Failed to check if /home/andrew/Files/venv/bin/python3.13 is an executable [Error: ENOENT: no such file or directory, lstat '/home/andrew/Files/venv/bin/python3.13'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/andrew/Files/venv/bin/python3.13'
+}
+2025-06-08 18:25:59.246 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:25:59.246 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:25:59.251 [info] Found: /sbin/python --> /sbin/python3.13
+2025-06-08 18:25:59.252 [warning] Failed to check if /home/andrew/Files/venv/bin/python3.13 is an executable [Error: ENOENT: no such file or directory, lstat '/home/andrew/Files/venv/bin/python3.13'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/andrew/Files/venv/bin/python3.13'
+}
+2025-06-08 18:25:59.252 [info] Found: /sbin/python3 --> /sbin/python3.13
+2025-06-08 18:25:59.252 [info] Found: /sbin/python3.13 --> /sbin/python3.13
+2025-06-08 18:25:59.252 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:25:59.254 [info] Found: /usr/bin/python --> /usr/bin/python3.13
+2025-06-08 18:25:59.254 [info] Found: /usr/bin/python3 --> /usr/bin/python3.13
+2025-06-08 18:25:59.254 [info] Found: /usr/bin/python3.13 --> /usr/bin/python3.13
+2025-06-08 18:25:59.264 [info] Found: /usr/sbin/python --> /usr/sbin/python3.13
+2025-06-08 18:25:59.264 [info] Found: /usr/sbin/python3 --> /usr/sbin/python3.13
+2025-06-08 18:25:59.264 [info] Found: /usr/sbin/python3.13 --> /usr/sbin/python3.13
+2025-06-08 18:25:59.271 [info] > /bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-06-08 18:25:59.277 [info] > /sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-06-08 18:25:59.279 [info] Finished searching for interpreters in posix paths locator: 49 milliseconds
+2025-06-08 18:25:59.280 [info] Environments refresh paths discovered (event): 51 milliseconds
+2025-06-08 18:25:59.280 [info] Environments refresh paths discovered: 51 milliseconds
+2025-06-08 18:25:59.298 [info] > /usr/bin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-06-08 18:25:59.305 [info] > /usr/sbin/python -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-06-08 18:25:59.328 [info] Environments refresh finished (event): 99 milliseconds
+2025-06-08 18:25:59.330 [info] Environment refresh took 101 milliseconds
+2025-06-08 18:26:10.945 [warning] Failed to check if /home/andrew/Files/venv/bin/python3.13 is an executable [Error: ENOENT: no such file or directory, lstat '/home/andrew/Files/venv/bin/python3.13'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/andrew/Files/venv/bin/python3.13'
+}
+2025-06-08 18:26:10.946 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:26:10.947 [warning] Failed to check if /home/andrew/Files/venv/bin/python3.13 is an executable [Error: ENOENT: no such file or directory, lstat '/home/andrew/Files/venv/bin/python3.13'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/andrew/Files/venv/bin/python3.13'
+}
+2025-06-08 18:26:10.947 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:26:10.948 [warning] Failed to check if /home/andrew/Files/venv/bin/python3.13 is an executable [Error: ENOENT: no such file or directory, lstat '/home/andrew/Files/venv/bin/python3.13'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/andrew/Files/venv/bin/python3.13'
+}
+2025-06-08 18:26:10.948 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:26:16.446 [warning] Failed to check if /home/andrew/Files/venv/bin/python3.13 is an executable [Error: ENOENT: no such file or directory, lstat '/home/andrew/Files/venv/bin/python3.13'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/andrew/Files/venv/bin/python3.13'
+}
+2025-06-08 18:26:16.447 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:26:22.180 [warning] Failed to check if /home/andrew/Files/venv/bin/python3.13 is an executable [Error: ENOENT: no such file or directory, lstat '/home/andrew/Files/venv/bin/python3.13'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'lstat',
+  path: '/home/andrew/Files/venv/bin/python3.13'
+}
+2025-06-08 18:26:22.181 [warning] Identifier for virt-virtualenv failed to identify /home/andrew/Files/venv/bin/python3.13 [Error: ENOENT: no such file or directory, scandir '/home/andrew/Files/venv/bin'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: '/home/andrew/Files/venv/bin'
+}
+2025-06-08 18:27:37.441 [info] Active interpreter [/home/andrew/Files]:  /home/andrew/Files/venv/bin/python3
+2025-06-08 18:27:37.449 [info] > ./venv/bin/python3 -I ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/get_output_via_markers.py ~/.vscode-oss/extensions/ms-python.python-2025.4.0-universal/python_files/interpreterInfo.py
+2025-06-08 18:27:37.474 [info] Discover tests for workspace name: Files - uri: /home/andrew/Files
+2025-06-08 18:27:37.474 [info] Python interpreter path: ./venv/bin/python3
+2025-06-08 18:27:37.875 [info] Starting Jedi language server for Files.
+2025-06-08 18:27:41.461 [info] CreateEnv Trigger - Skipping for /home/andrew/Files/walls_maker.py
+2025-06-08 18:27:41.508 [info] Send text to terminal: source /home/andrew/Files/venv/bin/activate
+2025-06-08 18:27:42.011 [info] Send text to terminal: /home/andrew/Files/venv/bin/python3 /home/andrew/Files/walls_maker.py
+2025-06-08 18:28:48.691 [info] Send text to terminal: /home/andrew/Files/venv/bin/python3 /home/andrew/Files/walls_maker.py
+2025-06-08 18:28:48.941 [info] Discover tests for workspace name: Files - uri: /home/andrew/Files/walls_maker.py
+2025-06-08 18:28:55.644 [info] Send text to terminal: /home/andrew/Files/venv/bin/python3 /home/andrew/Files/walls_maker.py
+2025-06-08 18:29:41.044 [info] Send text to terminal: /home/andrew/Files/venv/bin/python3 /home/andrew/Files/walls_maker.py
+2025-06-08 18:29:41.293 [info] Discover tests for workspace name: Files - uri: /home/andrew/Files/walls_maker.py
+2025-06-08 18:30:23.159 [info] Send text to terminal: /home/andrew/Files/venv/bin/python3 /home/andrew/Files/walls_maker.py
+2025-06-08 18:30:23.408 [info] Discover tests for workspace name: Files - uri: /home/andrew/Files/walls_maker.py
+2025-06-08 18:30:43.978 [info] Send text to terminal: /home/andrew/Files/venv/bin/python3 /home/andrew/Files/walls_maker.py
+2025-06-08 18:30:44.227 [info] Discover tests for workspace name: Files - uri: /home/andrew/Files/walls_maker.py
+2025-06-08 18:32:47.676 [info] Send text to terminal: /home/andrew/Files/venv/bin/python3 /home/andrew/Files/walls_maker.py
+2025-06-08 18:32:47.925 [info] Discover tests for workspace name: Files - uri: /home/andrew/Files/walls_maker.py
+2025-06-08 18:33:45.209 [info] Send text to terminal: /home/andrew/Files/venv/bin/python3 /home/andrew/Files/walls_maker.py
+2025-06-08 18:33:45.458 [info] Discover tests for workspace name: Files - uri: /home/andrew/Files/walls_maker.py
+2025-06-08 18:34:43.401 [info] Send text to terminal: /home/andrew/Files/venv/bin/python3 /home/andrew/Files/walls_maker.py
+2025-06-08 18:34:43.650 [info] Discover tests for workspace name: Files - uri: /home/andrew/Files/walls_maker.py

@@ -1,0 +1,16 @@
+2025-06-06 19:20:11.798 [info] Started local extension host with pid 3257.
+2025-06-06 19:20:11.822 [info] Started initializing default profile extensions in extensions installation folder. file:///home/andrew/.vscode-oss/extensions
+2025-06-06 19:20:11.899 [info] ComputeTargetPlatform: linux-x64
+2025-06-06 19:20:11.941 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/andrew/.vscode-oss/extensions
+2025-06-06 19:20:12.211 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-06-06 19:20:14.721 [info] [perf] Render performance baseline is 17ms
+2025-06-06 19:22:23.044 [error] SignatureVerificationInternal: Signature verification failed with 'UnhandledException' error.
+    at yh.xb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:64415)
+    at async yh.wb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62886)
+2025-06-06 19:22:23.052 [error] Signature verification failed with 'UnhandledException' error.: SignatureVerificationInternal: Signature verification failed with 'UnhandledException' error.
+    at yh.xb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:64415)
+    at async yh.wb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:74:62886)
+2025-06-06 19:22:43.016 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-06-06 19:22:43.016 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2025-06-06 19:22:43.022 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2025-06-06 19:22:44.411 [error] An unknown error occurred. Please consult the log for more details.
