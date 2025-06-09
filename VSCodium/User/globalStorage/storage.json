@@ -1,0 +1,97 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "b2f41883d2be409d9cf7e286580a8cd8a4620417ffe3f4ec103b119cc9f504c9",
+    "telemetry.devDeviceId": "aa0ce2f9-32e3-4678-8f6d-4584030c79ec",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/andrew/Files"
+            },
+            {
+                "folderUri": "file:///home/andrew/.config/polybar"
+            }
+        ],
+        "emptyWindows": [
+            {
+                "backupFolder": "1749497676956"
+            },
+            {
+                "backupFolder": "1749501540761"
+            }
+        ]
+    },
+    "windowControlHeight": 42,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/andrew/Files": "__default__profile__",
+            "file:///home/andrew/.config/polybar": "__default__profile__"
+        },
+        "emptyWindows": {
+            "1749497676956": "__default__profile__",
+            "1749501540761": "__default__profile__"
+        }
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e2e",
+    "windowSplash": {
+        "zoomLevel": 2,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cdd6f4",
+            "background": "#1e1e2e",
+            "editorBackground": "#1e1e2e",
+            "titleBarBackground": "#11111b",
+            "titleBarBorder": "rgba(0, 0, 0, 0)",
+            "activityBarBackground": "#11111b",
+            "activityBarBorder": "rgba(0, 0, 0, 0)",
+            "sideBarBackground": "#181825",
+            "sideBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarBackground": "#11111b",
+            "statusBarBorder": "rgba(0, 0, 0, 0)",
+            "statusBarNoFolderBackground": "#11111b",
+            "windowBorder": "rgba(0, 0, 0, 0)"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 0,
+            "sideBarWidth": 235,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/andrew/Files",
+            "backupPath": "/home/andrew/.config/VSCodium/Backups/69a32e594ae7cf7536bde91335670d33",
+            "uiState": {
+                "mode": 0,
+                "x": 11,
+                "y": 52,
+                "width": 1898,
+                "height": 1137,
+                "zoomLevel": 1
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 235,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "2d73529ad3695d41bdada627f83c9708": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "63ccf307620118afe007f1286f886eb8": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

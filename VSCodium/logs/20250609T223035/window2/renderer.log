@@ -1,0 +1,14 @@
+2025-06-09 22:34:36.920 [info] Started local extension host with pid 2203.
+2025-06-09 22:34:36.953 [info] ComputeTargetPlatform: linux-x64
+2025-06-09 22:34:39.566 [info] [perf] Render performance baseline is 16ms
+2025-06-09 22:36:29.872 [error] spawn xterm ENOENT: Error: spawn xterm ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2025-06-09 22:37:44.379 [info] Started local extension host with pid 2375.
+2025-06-09 22:37:44.586 [info] ComputeTargetPlatform: linux-x64
+2025-06-09 22:37:47.032 [info] [perf] Render performance baseline is 12ms
+2025-06-09 22:39:30.295 [error] spawn xterm ENOENT: Error: spawn xterm ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

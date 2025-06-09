@@ -1,1 +1,0 @@
-2025-06-08 18:23:20.337 [error] Failed to set sticky bit on /tmp/andrew-code-oss-zsh: Error: ENOENT: no such file or directory, chmod '/tmp/andrew-code-oss-zsh'

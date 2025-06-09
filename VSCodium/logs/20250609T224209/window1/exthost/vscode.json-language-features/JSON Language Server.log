@@ -1,0 +1,24 @@
+2025-06-09 22:42:10.901 [info] read schema from vscode: vscode://schemas/settings/user
+2025-06-09 22:42:10.902 [info] cancelled
+2025-06-09 22:42:11.003 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2025-06-09 22:42:11.036 [info] read schema from vscode: vscode://schemas/launch
+2025-06-09 22:42:11.041 [info] read schema from vscode: vscode://schemas/mcp
+2025-06-09 22:42:11.042 [info] read schema from vscode: vscode://schemas/token-styling
+2025-06-09 22:42:11.042 [info] read schema from vscode: vscode://schemas/textmate-colors
+2025-06-09 22:42:11.042 [info] read schema from vscode: vscode://schemas/workbench-colors
+2025-06-09 22:42:12.774 [info] schema change detected vscode://schemas/settings/resourceLanguage
+2025-06-09 22:42:12.775 [info] read schema from vscode: vscode://schemas/settings/user
+2025-06-09 22:42:12.838 [info] read schema from vscode: vscode://schemas/settings/resourceLanguage
+2025-06-09 22:42:12.891 [info] schema change detected vscode://schemas/settings/user
+2025-06-09 22:42:12.893 [info] read schema from vscode: vscode://schemas/settings/user
+2025-06-09 22:42:15.785 [info] schema change detected vscode://schemas/launch
+2025-06-09 22:42:15.787 [info] read schema from vscode: vscode://schemas/settings/user
+2025-06-09 22:42:15.826 [info] read schema from vscode: vscode://schemas/launch
+2025-06-09 22:42:33.865 [info] schema change detected vscode://schemas/settings/user
+2025-06-09 22:42:33.867 [info] read schema from vscode: vscode://schemas/settings/user
+2025-06-09 22:42:41.435 [info] schema change detected vscode://schemas/settings/user
+2025-06-09 22:42:41.437 [info] read schema from vscode: vscode://schemas/settings/user
+2025-06-09 22:45:18.569 [info] schema change detected vscode://schemas/settings/user
+2025-06-09 22:45:18.570 [info] read schema from vscode: vscode://schemas/settings/user
+2025-06-09 22:45:31.341 [info] schema change detected vscode://schemas/settings/user
+2025-06-09 22:45:31.342 [info] read schema from vscode: vscode://schemas/settings/user

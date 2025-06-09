@@ -1,0 +1,17 @@
+2025-06-09 22:46:07.722 [info] Started local extension host with pid 3917.
+2025-06-09 22:46:07.777 [info] ComputeTargetPlatform: linux-x64
+2025-06-09 22:46:10.445 [info] [perf] Render performance baseline is 14ms
+2025-06-09 22:54:07.988 [info] Started local extension host with pid 4954.
+2025-06-09 22:54:08.106 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-06-09 22:54:08.137 [info] ComputeTargetPlatform: linux-x64
+2025-06-09 22:54:10.611 [info] [perf] Render performance baseline is 12ms
+2025-06-09 23:40:36.783 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2025-06-09 23:40:39.398 [info] [lifecycle]: Shutdown was prevented by final veto (id: veto.backups)
+2025-06-09 23:41:27.132 [info] Started local extension host with pid 11180.
+2025-06-09 23:41:27.177 [info] ComputeTargetPlatform: linux-x64
+2025-06-09 23:41:27.235 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-06-09 23:41:29.797 [info] [perf] Render performance baseline is 13ms
+2025-06-09 23:42:03.551 [error] [text file model] handleSaveError(2) - exit - resulted in a save error: Error: Unable to write file '/home/andrew/.config/polybar/modules.ini' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/andrew/.config/polybar/modules.ini') file:///home/andrew/.config/polybar/modules.ini
+2025-06-09 23:42:20.913 [error] [text file model] handleSaveError(2) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///home/andrew/.config/polybar/modules.ini
+2025-06-09 23:42:26.431 [error] [text file model] handleSaveError(2) - exit - resulted in a save error: Error: Unable to write file '/home/andrew/.config/polybar/modules.ini' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/andrew/.config/polybar/modules.ini') file:///home/andrew/.config/polybar/modules.ini
+2025-06-09 23:42:34.297 [error] [text file model] handleSaveError(2) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///home/andrew/.config/polybar/modules.ini
