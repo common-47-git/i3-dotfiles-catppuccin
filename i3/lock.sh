@@ -1,0 +1,34 @@
+#!/bin/sh
+
+i3lock \
+  -c 1e1e2e \
+  --clock \
+  --time-color cdd6f4 \
+  --date-color cdd6f4 \
+  --layout-color bac2deff \
+  --time-size 45 \
+  --date-size 22 \
+  --time-font JetBrainsMono \
+  --date-font JetBrainsMono \
+  --layout-font JetBrainsMono \
+  --verif-font JetBrainsMono \
+  --wrong-font JetBrainsMono \
+  --greeter-font JetBrainsMono \
+  --nofork \
+  --inside-color 313244ff \
+  --ring-color 89b4faff \
+  --line-color 7f849cff \
+  --separator-color 1e1e2eff \
+  --verif-color a6e3a1ff \
+  --wrong-color f38ba8ff \
+  --modif-color f9e2afff \
+  --greeter-color cdd6f4ff \
+  --ringver-color a6e3a1ff \
+  --ringwrong-color f38ba8ff \
+  --insidever-color 313244ff \
+  --insidewrong-color 313244ff \
+  --radius 150 \
+  --ring-width 10 \
+  --ignore-empty-password \
+  --pass-media-keys \
+  --show-failed-attempts
