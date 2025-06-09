@@ -37,11 +37,3 @@ These configs aim to provide a cohesive and productive desktop experience.
 ### GRUB Boot Menu
 ![grub](https://example.com/screenshots/grub.png)
 
----
-
-## Installation
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/common-47-git/i3-dots.git ~/.config/i3-dots
