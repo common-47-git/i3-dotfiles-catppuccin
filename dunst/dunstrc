@@ -12,8 +12,9 @@
 
   frame_width = 1
   separator_height = 2
-  frame_color = "#161320"
-  separator_color = "#161320"
+  frame_color = "#89b4fa"
+  separator_color = frame
+  highlight = "#89b4fa"
 
   sort = no
   font = JetBrainsMono 15
@@ -28,7 +29,7 @@
   show_indicators = yes
 
   icon_position = left
-  max_icon_size= 60
+  max_icon_size = 60
   sticky_history = no
   history_length = 6
   title = Dunst
@@ -40,19 +41,19 @@
   mouse_right_click = close_all
 
 [urgency_low]
-  background = "#1E1E2E"
-  frame_color = "#989CFA"
-  foreground = "#D9E0EE"
+  background = "#1e1e2e"
+  foreground = "#cdd6f4"
+  frame_color = "#89b4fa"
   timeout = 5
 
 [urgency_normal]
-  background = "#1E1E2E"
-  frame_color = "#989CFA"
-  foreground = "#D9E0EE"
+  background = "#1e1e2e"
+  foreground = "#cdd6f4"
+  frame_color = "#89b4fa"
   timeout = 5
 
 [urgency_critical]
-  background = "#1E1E2E"
-  frame_color = "#989CFA"
-  foreground = "#D9E0EE"
+  background = "#1e1e2e"
+  foreground = "#cdd6f4"
+  frame_color = "#fab387"
   timeout = 10
