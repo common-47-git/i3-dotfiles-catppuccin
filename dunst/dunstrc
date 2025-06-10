@@ -5,8 +5,8 @@
   padding = 20
   horizontal_padding = 20
 
-  width = 300
-  height = 400  
+# width = 300
+# height = 400  
   offset = 20x60
   origin = top-right
 

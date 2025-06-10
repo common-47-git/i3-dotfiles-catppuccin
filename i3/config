@@ -18,11 +18,7 @@ set $mod Mod4
 # https://wiki.archlinux.org/index.php/XDG_Autostart
 exec --no-startup-id dex --autostart --environment i3
 
-# The combination of xss-lock, nm-applet and pactl is a popular choice, so
-# they are included here as an example. Modify as you see fit.
-
-# xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
-# screen before suspend. Use loginctl lock-session to lock your screen.
+# Screen lock
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
@@ -51,7 +47,7 @@ for_window [instance="calc"] resize set 400 500
 # Screenshot (full screen)
 bindsym XF86Cut exec flameshot full -p ~/Pictures/Screenshots
 # Screenshot selection mode
-bindsym $mod+Shift+s exec flameshot gui
+bindsym $mod+Shift+s exec flameshot gui -c -p ~/Pictures/Screenshots
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -69,25 +65,13 @@ bindsym $mod+Shift+q kill
 # start a program launcher
 bindsym $mod+d exec --no-startup-id rofi -show drun
 
-# change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
-
-# alternatively, you can use the cursor keys:
+# Changing focus
 bindsym $mod+Left focus left
 bindsym $mod+Down focus down
 bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
-
-# alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
@@ -197,7 +181,6 @@ client.focused_inactive $green $green $bg
 client.urgent           $red $red $bg
 # Windows border thickness
 for_window [class="^.*"] border pixel 1
-
 # Windows gap
 gaps inner 10px
 
