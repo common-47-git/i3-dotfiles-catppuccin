@@ -1,7 +1,0 @@
-2025-06-09 22:46:08.088 [info] ComputeTargetPlatform: linux-x64
-2025-06-09 22:46:10.282 [info] ComputeTargetPlatform: linux-x64
-2025-06-09 22:52:59.970 [info] Getting Manifest... catppuccin.catppuccin-vsc-icons
-2025-06-09 22:53:00.735 [info] Installing extension: catppuccin.catppuccin-vsc-icons {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/andrew/.vscode-oss/extensions/extensions.json","path":"/home/andrew/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.100.33714","date":"2025-06-09T19:15:01.603Z"}}
-2025-06-09 22:53:02.006 [info] Extracted extension to file:///home/andrew/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-1.21.0-universal: catppuccin.catppuccin-vsc-icons
-2025-06-09 22:53:02.048 [info] Renamed to /home/andrew/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-1.21.0-universal
-2025-06-09 22:53:02.057 [info] Extension installed successfully: catppuccin.catppuccin-vsc-icons vscode-userdata:/home/andrew/.vscode-oss/extensions/extensions.json

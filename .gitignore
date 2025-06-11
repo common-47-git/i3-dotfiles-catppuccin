@@ -2,6 +2,8 @@
 *
 
 # Don't ignore these folders (adjust to what you want to keep)
+VSCodium/*
+!VSCodium/User/
 !VSCodium/User/settings.json
 !dunst/
 !flameshot/
