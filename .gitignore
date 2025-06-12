@@ -16,6 +16,8 @@ VSCodium/*
 !polybar/
 !rofi/
 !sddm/
+!themes/
+!.gtk-2.0
 
 # Also track README.md and .gitignore itself
 !README.md
