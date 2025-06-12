@@ -26,27 +26,8 @@ All tools are configured with a **Catppuccin Mocha**-inspired color palette and 
 
 ## 🖼 Screenshots
 
-> 📁 *Place your actual image links in place of the placeholders below.*
-
-### 🧩 Overall Desktop
-
-![desktop](https://example.com/screenshots/desktop.png)
-
-### 🧪 Rofi Launcher
-
-![rofi](https://example.com/screenshots/rofi.png)
-
-### 🔔 Dunst Notifications
-
-![dunst](https://example.com/screenshots/dunst.png)
-
-### 🔐 SDDM Login Screen
-
-![sddm](https://example.com/screenshots/sddm.png)
-
-### 📀 GRUB Boot Menu
-
-![grub](https://example.com/screenshots/grub.png)
+![Overall Desktop](https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/2025-06-13_00-05-35.png?raw=true)
+![Overall Desktop](https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/2025-06-13_00-07-52.png?raw=true)
 
 ---
 
