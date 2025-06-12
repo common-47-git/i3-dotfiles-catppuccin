@@ -30,7 +30,3 @@ All tools are configured with a **Catppuccin Mocha**-inspired color palette and 
 ![Overall Desktop](https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/2025-06-13_00-07-52.png?raw=true)
 
 ---
-
-## 📜 License
-
-MIT License
