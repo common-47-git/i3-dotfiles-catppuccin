@@ -47,7 +47,7 @@ for_window [instance="calc"] resize set 400 500
 # Screenshot (full screen)
 bindsym XF86Cut exec flameshot full -p ~/Pictures/Screenshots
 # Screenshot selection mode
-bindsym $mod+Shift+s exec flameshot gui -c -p ~/Pictures/Screenshots
+bindsym $mod+Shift+s exec flameshot gui -c 
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod

@@ -1,23 +1,21 @@
 # Ignore everything
 *
 
-# Don't ignore these folders (adjust to what you want to keep)
-VSCodium/*
-!VSCodium/User/
-!VSCodium/User/settings.json
-!dunst/
-!flameshot/
-!grub/
-!gtk-2.0/
-!gtk-3.0/
-!gtk-4.0/
-!i3/
-!kitty/
-!polybar/
-!rofi/
-!sddm/
-!themes/
-!.gtk-2.0
+# Don't ignore these folders
+VSCodium/***
+!VSCodium/**User/**
+!VSCodium/**User/**settings.json
+!dunst/**
+!flameshot/**
+!grub/**
+!gtk-3.0/**
+!gtk-4.0/**
+!i3/**
+!kitty/**
+!polybar/**
+!rofi/**
+!sddm/**
+!screenshots/**
 
 # Also track README.md and .gitignore itself
 !README.md
