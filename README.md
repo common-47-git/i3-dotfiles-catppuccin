@@ -1,4 +1,3 @@
-
 <h1 align="center">Catppuccin i3 Dotfiles</h1>
 
 🎯 A collection of dotfiles for the **i3** window manager and related tools, designed to create a minimal, beautiful, and efficient Linux desktop environment with **Catppuccin** theming.
@@ -25,25 +24,23 @@ All tools are configured with a **Catppuccin Mocha**-inspired color palette and 
 
 ---
 
-<h2 align="center">🖥 Desktop</h2>
+<h2 align="center">🖼 Screenshots</h2>
 
 <p align="center">
-  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/fastfetch.png?raw=true" width="45%" style="margin: 10px"/>
-  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/rofi.png?raw=true" width="45%" style="margin: 10px"/>
+  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/fastfetch.png?raw=true" width="90%" />
+  <br />
+  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/rofi.png?raw=true" width="90%" />
 </p>
-
-<h2 align="center">🔒 i3lock</h2>
 
 <p align="center">
-  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/i3lock_state.png?raw=true" width="45%" style="margin: 10px"/>
-  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/i3lock_entering_pass.png?raw=true" width="45%" style="margin: 10px"/>
+  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/i3lock_state.png?raw=true" width="44%" />
+  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/i3lock_entering_pass.png?raw=true" width="44%" />
 </p>
-
-<h2 align="center">🔒 i3lock</h2>
 
 <p align="center">
-  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/vscodium.png?raw=true" width="45%" style="margin: 10px"/>
-  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/ranger.png?raw=true" width="45%" style="margin: 10px"/>
+  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/vscodium.png?raw=true" width="90%" />
 </p>
 
-
+<p align="center">
+  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/ranger.png?raw=true" width="90%" />
+</p>
