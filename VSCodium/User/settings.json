@@ -44,5 +44,8 @@
     "workbench.settings.applyToAllProfiles": [
         
     ],
-    "python.defaultInterpreterPath": "/home/andrew/Files/venv/bin/python3.13"
+    "python.defaultInterpreterPath": "/home/andrew/Files/venv/bin/python3.13",
+    "editor.linkedEditing": true,
+    "debug.disassemblyView.showSourceCode": false
+
 }
