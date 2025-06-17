@@ -1,22 +1,6 @@
 # Ignore everything
 *
 
-# Don't ignore these folders
-VSCodium/***
-!VSCodium/**User/**
-!VSCodium/**User/**settings.json
-!dunst/**
-!flameshot/**
-!grub/**
-!gtk-3.0/**
-!gtk-4.0/**
-!i3/**
-!kitty/**
-!polybar/**
-!rofi/**
-!sddm/**
+# Don't ignore these 
 !screenshots/**
-
-# Also track README.md and .gitignore itself
-!README.md
 !.gitignore
