@@ -27,20 +27,20 @@ All tools are configured with a **Catppuccin Mocha**-inspired color palette and 
 <h2 align="center">🖼 Screenshots</h2>
 
 <p align="center">
-  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/fastfetch.png?raw=true" width="90%" />
+  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/screenshots/screenshots/fastfetch.png?raw=true" width="90%" />
   <br />
-  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/rofi.png?raw=true" width="90%" />
+  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/screenshots/screenshots/rofi.png?raw=true" width="90%" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/i3lock_state.png?raw=true" width="44%" />
-  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/i3lock_entering_pass.png?raw=true" width="44%" />
+  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/screenshots/screenshots/i3lock_state.png?raw=true" width="44%" />
+  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/screenshots/screenshots/i3lock_entering_pass.png?raw=true" width="44%" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/vscodium.png?raw=true" width="90%" />
+  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/screenshots/screenshots/vscodium.png?raw=true" width="90%" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/main/screenshots/ranger.png?raw=true" width="90%" />
+  <img src="https://github.com/common-47-git/i3-dotfiles-catppuccin/blob/screenshots/screenshots/ranger.png?raw=true" width="90%" />
 </p>
