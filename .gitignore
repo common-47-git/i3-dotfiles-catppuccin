@@ -15,7 +15,6 @@ VSCodium/***
 !polybar/**
 !rofi/**
 !sddm/**
-!screenshots/**
 
 # Also track README.md and .gitignore itself
 !README.md
