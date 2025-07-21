@@ -17,7 +17,7 @@ Item {
     }
     background: Rectangle {
       id: sleepButtonBg
-      color: config.red
+      color: config.blue
       radius: 3
     }
     states: [
@@ -26,7 +26,7 @@ Item {
         when: sleepButton.hovered
         PropertyChanges {
           target: sleepButtonBg
-          color: config.rosewater
+          color: config.sky
         }
       }
     ]

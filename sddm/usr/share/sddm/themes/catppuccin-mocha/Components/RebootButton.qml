@@ -18,7 +18,7 @@ Item {
     background: Rectangle {
       id: rebootButtonBackground
       radius: 3
-      color: config.red
+      color: config.blue
     }
     states: [
       State {
@@ -26,7 +26,7 @@ Item {
         when: rebootButton.hovered
         PropertyChanges {
           target: rebootButtonBackground
-          color: config.rosewater
+          color: config.sky
         }
       }
     ]

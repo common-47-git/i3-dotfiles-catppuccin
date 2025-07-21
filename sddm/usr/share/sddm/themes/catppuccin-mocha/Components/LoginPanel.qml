@@ -97,7 +97,7 @@ Item {
           when: loginButton.down
           PropertyChanges {
             target: buttonBackground
-            color: config.teal
+            color: config.sky
           }
           PropertyChanges {
             target: buttonText
@@ -108,7 +108,7 @@ Item {
           when: loginButton.hovered
           PropertyChanges {
             target: buttonBackground
-            color: config.teal
+            color: config.sky
           }
           PropertyChanges {
             target: buttonText

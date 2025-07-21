@@ -18,7 +18,7 @@ Item {
     background: Rectangle {
       id: powerButtonBackground
       radius: 3
-      color: config.red
+      color: config.blue
     }
     states: [
       State {
@@ -26,7 +26,7 @@ Item {
         when: powerButton.hovered
         PropertyChanges {
           target: powerButtonBackground
-          color: config.rosewater
+          color: config.sky
         }
       }
     ]
